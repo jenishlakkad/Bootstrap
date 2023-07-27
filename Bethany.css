@@ -1,0 +1,223 @@
+*{
+    border: 1px solid red;
+}
+
+:root{
+    --primary-color:#009970;
+    --primary-background:#009970;
+    --white-color:white;
+}
+/* body{
+    height: 1500px;
+} */
+.regBtn{
+    border: 1px solid white;
+    background: transparent;
+    color: var(--white-color);
+    padding: 3px 20px !important;
+    transition: all ease-in-out .3s;
+}
+.regBtn:hover{
+    border: 1px solid var(--primary-background);
+    background: var(--primary-background);
+}
+#bethanyLogo{
+    overflow: hidden;
+    padding: 16px 30px 12px 30px;
+    background: var(--primary-background);
+    color: var(--white-color);
+}
+
+#getStarted{
+    background-color: var(--primary-background);
+    color: var(--white-color);
+    padding: 8px 25px !important;
+}
+
+
+/* #####################       Section:-2 ############# */
+#section2{
+    background-image: url('Image/hero-bg.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.864); */
+    /* background: -webkit-linear-gradient(left,rgba(255,0,0,0),#141823); */
+    
+    padding-top: 100px ;
+    background-attachment: fixed;
+}
+#section2:before {
+    background: rgba(0, 0, 0, 0.6);   
+}
+#section2 > div{
+    margin: 0 auto;
+    /* width: 80%; */
+    color: var(--white-color);
+}
+
+/* #####################       Section:-3 ############# */
+/* #####################       Section:-4 ############# */
+#section4{
+    padding: 20px 0px;
+}
+#section4 > div{
+    /* padding: 30px ; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#con1 > h2{
+    line-height: 40px;
+    /* font-size: larger; */
+}
+#con1 > p{
+    font-size: larger;
+}
+#con2{
+    line-height: 20px;
+}
+
+/* #####################       Section:-5 ############# */
+#section5{
+    background-color: var(--primary-background);
+}
+#section5 > div > div > div > span{
+    color: var(--white-color);
+}
+
+/* #####################       Section:-6 ############# */
+#section6 .con3{
+    background-color: var(--primary-background);
+    color: var(--white-color);
+}
+#section6 .con3 button{
+    background-color: #05b687;
+    margin: 0 auto;
+    display: block;
+    color: var(--white-color);
+    transition: all ease-in-out .3s;
+}
+#section6 .con3 button:hover{
+    background-color: white;
+    color: #009970;
+}
+#s6Cont > div >i{
+    color: var(--primary-background);
+}
+
+
+
+/* #####################       Section:-7 ############# */
+#section7{
+    background-image: url('Image/cta-bg.jpg');
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.864); */
+    /* background: -webkit-linear-gradient(left,rgba(255,0,0,0),#141823); */
+    background-color: #f6f6f7;
+    padding-top: 50px ;
+    background-attachment: fixed;
+}
+#section7 > div{
+    margin: 0 auto;
+    /* width: 80%; */
+    color: var(--white-color);
+}
+
+/* #####################       Section:-8 ############# */
+#s8Cont > div >i{
+    color: var(--primary-background);  
+}
+#s8Cont > div > div >i{
+    background-color: var(--white-color);
+    transition: all ease-in-out .3s;
+}
+#s8Cont > div > div:hover i{
+    color: white;
+    background-color: var(--primary-background);
+}
+#s8Cont > div > div >h4{
+    transition: all ease-in-out .3s;
+}
+#s8Cont > div > div:hover h4{
+    color: var(--primary-background);
+}
+
+
+/* #####################       Section:-9    ############# */
+#s9Upper > p{
+    font-size: 15px;
+}
+#s9Lower > div >ul li{
+    border-radius: 50px;
+    padding: 0px 7px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    transition: all ease-in-out .2s;
+}
+#s9Lower > div >ul li:hover{
+    border: 1px solid var(--primary-background);
+    background-color: var(--primary-background);
+    color: white;
+}
+#s9Lower > div >ul >li:first-child{ 
+    border: 1px solid var(--primary-background);
+    background-color: var(--primary-background);
+    color: white;
+}
+
+/* ######################### */
+#s9LowerLower > div > div > div > .card-body{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.309);
+    padding: 100px 0px;
+    transition: all ease-in-out .2s;
+}
+#s9LowerLower > div > div > div{
+    overflow: hidden;
+}
+#s9LowerLower > div > div > div:hover .card-body{
+    opacity: 1;
+} 
+#s9LowerLower > div > div > div > img{
+    transition: all ease-in-out .2s;
+
+}
+#s9LowerLower > div > div > div:hover  img{
+    scale: 1.2;
+}
+#s9LowerLower > div > div > div > .card-body > span{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.858);
+}
+#s9LowerLower > div > div > div > .card-body > div{
+    text-align: center;
+}
+#s9LowerLower > div > div > div > .card-body > div > span > i{
+    color: white;
+    font-size: larger;
+}
+#s9LowerLower > div > div > div > .card-body > div > span > i:hover{
+    /* background-color: #009970; */
+    color: var(--primary-background);
+}
+
+
+
+/* #####################       Section:-10       ############# */
+
+
+/* #####################       Section:-11       ############# */
+#s11Right > div > div > img{
+
+}
+.imgDiv {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* #####################       Section:-10       ############# */
+
